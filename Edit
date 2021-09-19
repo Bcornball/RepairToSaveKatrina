@@ -14,8 +14,11 @@
 function KatrinaRepair() {
    while (frontIsClear()) {
       if (beepersPresent()) {
+      	function buildHouse() {
+
 		    //TODO : complete the main program
       }
+      	}
       if (frontIsClear()) {
          move();
       }
@@ -29,6 +32,8 @@ function KatrinaRepair() {
  */
 
 function buildHouse() {
+	function left stilt() {
+	 	
 	//TODO : code this function
 }
 
@@ -39,7 +44,9 @@ function buildHouse() {
  */
 
 function putThreeBeepers() {
-	//TODO : code this function
+	if Karel is in first square in line
+	Then PlaceBeeper()
+	Repeat 3 ()	
 }
 
 /*
@@ -47,7 +54,13 @@ function putThreeBeepers() {
  * Precondition: There is an open square behind Karel
  * Postcondition: Karel is in that square facing the same direction.
  */
-
+function turnAround() {
+	turnLeft ();
+	turnLeft ();
 function backUp() {
+	turnAround();
+	Move();
+	turnAround();
+	
 	//TODO : code this function
 }
