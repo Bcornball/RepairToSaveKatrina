@@ -2,11 +2,12 @@
  * File: KatrinaRepair
  * ---------------------
  * This program teaches Karel to repair the damage after Hurricane Katrina.
+ *-----------------------
  */
 
 /*
  * The KatrinaRepair function rebuilds houses along a hurricane-ravaged coastline 
- * containing only debris.  Karel moves along 1st street looking for beepers that 
+ * containing only debris. Karel moves along 1st street looking for beepers that 
  * mark intersections on which houses once stood.  Each time it finds a beeper,
  * Karel builds a new house on that corner.
  */
@@ -14,16 +15,16 @@
 function KatrinaRepair() {
    while (frontIsClear()) {
       if (beepersPresent()) {
-      	function buildHouse() {
-
-		    //TODO : complete the main program
+      		(buildHouse()) {	   
       }
       	}
+		}
       if (frontIsClear()) {
          move();
       }
    }
 }
+
 
 /*
  * The buildHouse function builds a beeper house on stilts.
@@ -32,9 +33,34 @@ function KatrinaRepair() {
  */
 
 function buildHouse() {
-	function left stilt() {
-	 	
-	//TODO : code this function
+	(PickUpBeeper);
+	  function LeftStilt() {
+	     (backup()){
+	       (putThreeBeepers()){        
+	      }
+	        }
+	 } 
+	/*NavigateToRightStilt*/
+	turnright();
+	move();
+	move();
+	turnright();
+	move();
+	move();
+	turnleft();
+		(putThreeBeepers()) {     //FirstPart of This FunctionBelow says turn left
+	}
+	/*CreateMiddleOfHouse*/
+		(backup()){
+	turnright();
+	move();
+	turnleft ();
+		(putThreeBeepers()){
+	}	
+		moveNextToRightStilt());{           //Function Below
+		}
+	
+	
 }
 
 /*
@@ -44,23 +70,46 @@ function buildHouse() {
  */
 
 function putThreeBeepers() {
-	if Karel is in first square in line
-	Then PlaceBeeper()
-	Repeat 3 ()	
+	turn left();
+	Repeat(3)	
+	(PlaceBeeper);
+	Repeat(2)
+	move();
+	
 }
+	
+		
+
 
 /*
  * The backUp function backs up one corner.
  * Precondition: There is an open square behind Karel
  * Postcondition: Karel is in that square facing the same direction.
  */
+ 
+ function turnRight() {
+	turnLeft ();
+	turnLeft ();
+	turnLeft ();
+}
 function turnAround() {
 	turnLeft ();
 	turnLeft ();
+}
 function backUp() {
 	turnAround();
-	Move();
+	move();
 	turnAround();
-	
-	//TODO : code this function
 }
+function moveNextToRightStilt() {
+ 	turnRight ();
+	turnRight ();
+	Repeat Until (Street);
+	move();
+	Then
+	turnLeft();
+	move();
+}
+
+	
+	
