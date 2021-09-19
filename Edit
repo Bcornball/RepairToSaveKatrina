@@ -35,8 +35,8 @@ function KatrinaRepair() {
 function buildHouse() {
 	(PickUpBeeper);
 	  function LeftStilt() {
-	     (backup()){
-	       (putThreeBeepers()){        
+	     (backup()){			
+	       (putThreeBeepers()){        	//leftTurn In first line of code
 	      }
 	        }
 	 } 
