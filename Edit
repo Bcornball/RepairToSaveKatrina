@@ -35,7 +35,7 @@ function buildHouse() {
 	(PickUpBeeper);
 	  function LeftStilt() {
 	     (backup()){			
-	       (putThreeBeepers()){        	//leftTurn In first line of code
+	       (putThreeBeepers()){       	
 	      }
 	        }
 	 }
@@ -48,7 +48,7 @@ function buildHouse() {
 	move();
 	move();
 	turnleft();
-		(putThreeBeepers()) {     //FirstPart of This FunctionBelow says turn left
+		(putThreeBeepers()) {     
 	}
 	/*CreateMiddleOfHouse*/
 		(backup()){
@@ -57,7 +57,7 @@ function buildHouse() {
 	turnleft ();
 		(putThreeBeepers()){
 		}	
-		moveNextToRightStilt());{           //Function Below
+		moveNextToRightstilt());{           //Function Below
 	}
 	
 	
