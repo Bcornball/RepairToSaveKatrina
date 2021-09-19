@@ -56,9 +56,9 @@ function buildHouse() {
 	move();
 	turnleft ();
 		(putThreeBeepers()){
-	}	
+		}	
 		moveNextToRightStilt());{           //Function Below
-		}
+	}
 	
 	
 }
