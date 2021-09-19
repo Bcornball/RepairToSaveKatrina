@@ -38,7 +38,8 @@ function buildHouse() {
 	       (putThreeBeepers()){        	//leftTurn In first line of code
 	      }
 	        }
-	 } 
+	 }
+	   }
 	/*NavigateToRightStilt*/
 	turnright();
 	move();
